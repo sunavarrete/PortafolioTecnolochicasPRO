@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <!-- Autor del portafolio -->
+    <meta name="author" content="Sujey Avila Navarrete">
+    <!-- Descripción -->
+    <meta name="description" content="Portafolio de Desarrollo Web de Sujey Navarrete">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Sujey Navarrete | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <!-- Cambiar logotipo de la pestaña -->
+    <link rel="icon" type="image/x-icon" href="/imagenes/archivo-html.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <!-- HOJA DE ESTILO, Y SU RUTA -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <header>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <!-- Buscar todas estas propiedades -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        <!-- Boton con ancla -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <!-- Cambiar esta img de icono -->
+            <img src="/imagenes/archivo-html.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="/imagenes/perfilsu.jpeg" alt="Foto de Sujey Navarrete">
+        <h1>Hola, soy Sujey Navarrete</h1>
+        <!--<h2>Student Web Developer en TecnolochicasPRO</h2>-->
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="/imagenes/ofhtmlcssjs.PNG" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Sujey Navarrete</h2>
+        <p class="seccion-texto">Me considero una persona con muchas virtudes, la responsabilidad, el respeto, las inmensas ganas de aprender, el buen manejo de trabajo en equipo, soy muy dedicada, honesta y culta, me gustaría resaltar mi gran resiliencia, responsabilidad y compromiso con el trabajo, estas son algunas virtudes pero sin duda la principal es el amor que le tengo a la programación y desarrollo web, lo cual se ve reflejdo en mi trabajo.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Diseño y desarrollo Front-End de sitios web bonitos y funcionales, optimizados para la visualizacion de tu identidad en la web.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Responsive</span>
+            </div>
+          </div>
+
+          <!-- Aptitudes -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Aptitudes</p>
+            <p>Me ayudan a ser una mujer especialmente idónea para ejercer con todo mi potencial mi trabajo.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Responsabilidad</span>
+              <span class="badge text-bg-primary">Enfoque</span>
+              <span class="badge text-bg-primary">Proactividad</span>
+              <span class="badge text-bg-primary">Comunicación</span>
+              <span class="badge text-bg-primary">Creatividad</span>
+              <span class="badge text-bg-primary">Teamworking</span>
+              <span class="badge text-bg-primary">Honestidad</span>
+              <span class="badge text-bg-primary">Organización</span>
+              <span class="badge text-bg-primary">Innovación</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Actualmente sigo preparandome para ser mucho mejor en lo que hago, a traves de TecnolochicasPRO y Mujer Digital.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Mujer Digital</span>
+              <span class="badge text-bg-primary">Cisco</span>
+              <span class="badge text-bg-primary">Python</span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>MI PRIMER PAGINA WEB</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <!-- NETIFLAY VINCULO -->
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imagenes/CLONDEGOOGLE.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/sunavarrete/Clone-de-Google.git" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://6656bcc11575544beec0e785--clondegoogledesujey.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Recomendaciones</h2>
+      <h3 class="seccion-descripcion">Estas son algunas opiniones de profesionales que me conocen...</h3>
+            
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="/imagenes/carlitos.jpg" alt="Foto de Carlos">
+              <p class="testimonio-texto">Sujey ha demostrado tener un interés genuino, pasión y proactividad en su carrera como desarrolladora Frontend. Sus bases son solidas y tiene gran curiosidad por la implementación de nuevas tecnologías. La recomiendo ampliamente, estoy seguro que será un valioso miembro para cualquier equipo y proyecto que tenga la ambición de destacar.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Carlos Esquivel</p>
+                <p class="cargo">Application Developer - Java & Web Technologies en IBM</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="/imagenes/julia.jpg" alt="Foto de Julie">
+              <p class="testimonio-texto">Sujey es una chica pro activa y con mucha motivación, es visible en ella el valor del compañerismo ya que tiene la iniciativa para ayudar al resto de sus compañeras, además de contar con amplio conocimiento en Desarrollo Web, en definitiva una buen elemento y una excelente lider.<p>
+              <div class="testimonio-info">
+                <p class="cliente">Julia Rangel</p>
+                <p class="cargo">Developer Web</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¿Puedo ayudarte?
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¡Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión e identidad se vuelva realidad!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:zuu.navarrete@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="/imagenes/archivo-html.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>¡Creemos un proyecto juntos!</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://x.com/_SuNavarrete" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/sunavarrete" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/avila-navarrete-sujey?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/_sunavarrete?igsh=MWIzYWo3NmRjdGRreQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:zuu.navarrete@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Sujey Navarrete (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
